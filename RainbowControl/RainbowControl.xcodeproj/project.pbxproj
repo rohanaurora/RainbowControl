@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDAB26D61ACC2B8300BCA487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB26D51ACC2B8300BCA487 /* AppDelegate.swift */; };
+		BDAB26D81ACC2B8300BCA487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB26D71ACC2B8300BCA487 /* ViewController.swift */; };
+		BDAB26DB1ACC2B8300BCA487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDAB26D91ACC2B8300BCA487 /* Main.storyboard */; };
+		BDAB26DD1ACC2B8300BCA487 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAB26DC1ACC2B8300BCA487 /* Images.xcassets */; };
+		BDAB26E01ACC2B8300BCA487 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDAB26DE1ACC2B8300BCA487 /* LaunchScreen.xib */; };
+		BDAB26EC1ACC2B8300BCA487 /* RainbowControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB26EB1ACC2B8300BCA487 /* RainbowControlTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDAB26E61ACC2B8300BCA487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDAB26C81ACC2B8300BCA487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDAB26CF1ACC2B8300BCA487;
+			remoteInfo = RainbowControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDAB26D01ACC2B8300BCA487 /* RainbowControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAB26D41ACC2B8300BCA487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAB26D51ACC2B8300BCA487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDAB26D71ACC2B8300BCA487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDAB26DA1ACC2B8300BCA487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDAB26DC1ACC2B8300BCA487 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDAB26DF1ACC2B8300BCA487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BDAB26E51ACC2B8300BCA487 /* RainbowControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAB26EA1ACC2B8300BCA487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAB26EB1ACC2B8300BCA487 /* RainbowControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowControlTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDAB26CD1ACC2B8300BCA487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAB26E21ACC2B8300BCA487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDAB26C71ACC2B8300BCA487 = {
+			isa = PBXGroup;
+			children = (
+				BDAB26D21ACC2B8300BCA487 /* RainbowControl */,
+				BDAB26E81ACC2B8300BCA487 /* RainbowControlTests */,
+				BDAB26D11ACC2B8300BCA487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDAB26D11ACC2B8300BCA487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDAB26D01ACC2B8300BCA487 /* RainbowControl.app */,
+				BDAB26E51ACC2B8300BCA487 /* RainbowControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDAB26D21ACC2B8300BCA487 /* RainbowControl */ = {
+			isa = PBXGroup;
+			children = (
+				BDAB26D51ACC2B8300BCA487 /* AppDelegate.swift */,
+				BDAB26D71ACC2B8300BCA487 /* ViewController.swift */,
+				BDAB26D91ACC2B8300BCA487 /* Main.storyboard */,
+				BDAB26DC1ACC2B8300BCA487 /* Images.xcassets */,
+				BDAB26DE1ACC2B8300BCA487 /* LaunchScreen.xib */,
+				BDAB26D31ACC2B8300BCA487 /* Supporting Files */,
+			);
+			path = RainbowControl;
+			sourceTree = "<group>";
+		};
+		BDAB26D31ACC2B8300BCA487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDAB26D41ACC2B8300BCA487 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDAB26E81ACC2B8300BCA487 /* RainbowControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDAB26EB1ACC2B8300BCA487 /* RainbowControlTests.swift */,
+				BDAB26E91ACC2B8300BCA487 /* Supporting Files */,
+			);
+			path = RainbowControlTests;
+			sourceTree = "<group>";
+		};
+		BDAB26E91ACC2B8300BCA487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDAB26EA1ACC2B8300BCA487 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDAB26CF1ACC2B8300BCA487 /* RainbowControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAB26EF1ACC2B8300BCA487 /* Build configuration list for PBXNativeTarget "RainbowControl" */;
+			buildPhases = (
+				BDAB26CC1ACC2B8300BCA487 /* Sources */,
+				BDAB26CD1ACC2B8300BCA487 /* Frameworks */,
+				BDAB26CE1ACC2B8300BCA487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowControl;
+			productName = RainbowControl;
+			productReference = BDAB26D01ACC2B8300BCA487 /* RainbowControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDAB26E41ACC2B8300BCA487 /* RainbowControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDAB26F21ACC2B8300BCA487 /* Build configuration list for PBXNativeTarget "RainbowControlTests" */;
+			buildPhases = (
+				BDAB26E11ACC2B8300BCA487 /* Sources */,
+				BDAB26E21ACC2B8300BCA487 /* Frameworks */,
+				BDAB26E31ACC2B8300BCA487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDAB26E71ACC2B8300BCA487 /* PBXTargetDependency */,
+			);
+			name = RainbowControlTests;
+			productName = RainbowControlTests;
+			productReference = BDAB26E51ACC2B8300BCA487 /* RainbowControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDAB26C81ACC2B8300BCA487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Rohan Aurora";
+				TargetAttributes = {
+					BDAB26CF1ACC2B8300BCA487 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BDAB26E41ACC2B8300BCA487 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BDAB26CF1ACC2B8300BCA487;
+					};
+				};
+			};
+			buildConfigurationList = BDAB26CB1ACC2B8300BCA487 /* Build configuration list for PBXProject "RainbowControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDAB26C71ACC2B8300BCA487;
+			productRefGroup = BDAB26D11ACC2B8300BCA487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDAB26CF1ACC2B8300BCA487 /* RainbowControl */,
+				BDAB26E41ACC2B8300BCA487 /* RainbowControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDAB26CE1ACC2B8300BCA487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAB26DB1ACC2B8300BCA487 /* Main.storyboard in Resources */,
+				BDAB26E01ACC2B8300BCA487 /* LaunchScreen.xib in Resources */,
+				BDAB26DD1ACC2B8300BCA487 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAB26E31ACC2B8300BCA487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDAB26CC1ACC2B8300BCA487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAB26D81ACC2B8300BCA487 /* ViewController.swift in Sources */,
+				BDAB26D61ACC2B8300BCA487 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAB26E11ACC2B8300BCA487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDAB26EC1ACC2B8300BCA487 /* RainbowControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDAB26E71ACC2B8300BCA487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDAB26CF1ACC2B8300BCA487 /* RainbowControl */;
+			targetProxy = BDAB26E61ACC2B8300BCA487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDAB26D91ACC2B8300BCA487 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAB26DA1ACC2B8300BCA487 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDAB26DE1ACC2B8300BCA487 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDAB26DF1ACC2B8300BCA487 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDAB26ED1ACC2B8300BCA487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDAB26EE1ACC2B8300BCA487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDAB26F01ACC2B8300BCA487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RainbowControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDAB26F11ACC2B8300BCA487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RainbowControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDAB26F31ACC2B8300BCA487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RainbowControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowControl.app/RainbowControl";
+			};
+			name = Debug;
+		};
+		BDAB26F41ACC2B8300BCA487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RainbowControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowControl.app/RainbowControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDAB26CB1ACC2B8300BCA487 /* Build configuration list for PBXProject "RainbowControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAB26ED1ACC2B8300BCA487 /* Debug */,
+				BDAB26EE1ACC2B8300BCA487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDAB26EF1ACC2B8300BCA487 /* Build configuration list for PBXNativeTarget "RainbowControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAB26F01ACC2B8300BCA487 /* Debug */,
+				BDAB26F11ACC2B8300BCA487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDAB26F21ACC2B8300BCA487 /* Build configuration list for PBXNativeTarget "RainbowControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDAB26F31ACC2B8300BCA487 /* Debug */,
+				BDAB26F41ACC2B8300BCA487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDAB26C81ACC2B8300BCA487 /* Project object */;
+}
