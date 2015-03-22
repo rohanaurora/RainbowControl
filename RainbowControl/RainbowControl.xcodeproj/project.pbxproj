@@ -13,6 +13,7 @@
 		BDAB26DD1ACC2B8300BCA487 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDAB26DC1ACC2B8300BCA487 /* Images.xcassets */; };
 		BDAB26E01ACC2B8300BCA487 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDAB26DE1ACC2B8300BCA487 /* LaunchScreen.xib */; };
 		BDAB26EC1ACC2B8300BCA487 /* RainbowControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB26EB1ACC2B8300BCA487 /* RainbowControlTests.swift */; };
+		BDAB26F71ACC2C0F00BCA487 /* Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAB26F61ACC2C0F00BCA487 /* Rainbow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BDAB26E51ACC2B8300BCA487 /* RainbowControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAB26EA1ACC2B8300BCA487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDAB26EB1ACC2B8300BCA487 /* RainbowControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowControlTests.swift; sourceTree = "<group>"; };
+		BDAB26F61ACC2C0F00BCA487 /* Rainbow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rainbow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,9 @@
 			children = (
 				BDAB26D51ACC2B8300BCA487 /* AppDelegate.swift */,
 				BDAB26D71ACC2B8300BCA487 /* ViewController.swift */,
+				BDAB26F61ACC2C0F00BCA487 /* Rainbow.swift */,
 				BDAB26D91ACC2B8300BCA487 /* Main.storyboard */,
-				BDAB26DC1ACC2B8300BCA487 /* Images.xcassets */,
-				BDAB26DE1ACC2B8300BCA487 /* LaunchScreen.xib */,
+				BDAB26F51ACC2B9800BCA487 /* Resources */,
 				BDAB26D31ACC2B8300BCA487 /* Supporting Files */,
 			);
 			path = RainbowControl;
@@ -110,6 +112,15 @@
 				BDAB26EA1ACC2B8300BCA487 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDAB26F51ACC2B9800BCA487 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BDAB26DC1ACC2B8300BCA487 /* Images.xcassets */,
+				BDAB26DE1ACC2B8300BCA487 /* LaunchScreen.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDAB26F71ACC2C0F00BCA487 /* Rainbow.swift in Sources */,
 				BDAB26D81ACC2B8300BCA487 /* ViewController.swift in Sources */,
 				BDAB26D61ACC2B8300BCA487 /* AppDelegate.swift in Sources */,
 			);
@@ -339,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RainbowControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RainbowControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
