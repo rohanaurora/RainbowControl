@@ -2,7 +2,8 @@
 //  Rainbow.swift
 //  RainbowControl
 //
-//  Created by Rohan Aurora on 4/1/15.
+//  Modified by Rohan Aurora on 4/1/15.
+//  Original code by https://github.com/appcoda/Rainbow-IBDesignable-Demo
 //  Copyright (c) 2015 Rohan Aurora. All rights reserved.
 //
 
